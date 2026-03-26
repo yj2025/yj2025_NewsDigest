@@ -99,7 +99,7 @@ pip install -r requirements.txt
 ### 2. 서버 실행
 
 ```
-uvicorn app.main:app --reload
+python -m uvicorn app.main:app --reload
 ```
 
 ### 3. 접속
