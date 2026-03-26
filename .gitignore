@@ -1,5 +1,6 @@
 # Python
-__pycache__/
+
+**pycache**/
 *.py[cod]
 *.pyo
 *.pyd
@@ -10,6 +11,7 @@ dist/
 build/
 env/
 venv/
+venv312/
 ENV/
 .venv/
 .env
@@ -18,33 +20,43 @@ ENV/
 *.log
 
 # VSCode
+
 .vscode/
 
 # macOS
+
 .DS_Store
 
 # 기타
+
 *.log
 
 # Jupyter Notebook
+
 .ipynb_checkpoints/
 
 # PyCharm
+
 .idea/
 
 # Coverage
+
 htmlcov/
 .coverage
 
 # pipenv
+
 Pipfile.lock
 
 # Poetry
+
 poetry.lock
 
 # mypy
+
 .mypy_cache/
 
 # virtualenv
+
 */bin/
 */Scripts/
