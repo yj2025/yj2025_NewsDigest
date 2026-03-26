@@ -1,11 +1,21 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 env/
 venv/
+ENV/
+.venv/
 .env
+.pytest_cache/
+*.cover
+*.log
 
 # VSCode
 .vscode/
@@ -15,3 +25,26 @@ venv/
 
 # 기타
 *.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# Coverage
+htmlcov/
+.coverage
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+
+# virtualenv
+*/bin/
+*/Scripts/
