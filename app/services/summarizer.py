@@ -3,8 +3,7 @@ from transformers import pipeline
 # 모델 로드 (처음에 좀 오래 걸림)
 # HuggingFace
 summarizer_model = pipeline(
-    "text-generation",
-    # "summarization",
+    "summarization",
     model="digit82/kobart-summarization",
     tokenizer="digit82/kobart-summarization",
 )
