@@ -4,10 +4,9 @@
 
 ---
 
-## 🚀 프로젝트 소개
+## 프로젝트 소개
 
-이 프로젝트는 사용자가 뉴스 URL을 입력하면
-자동으로 기사 내용을 수집하고 요약 결과를 제공하는 서비스입니다.
+이 프로젝트는 사용자가 뉴스 URL을 입력하면 자동으로 기사 내용을 수집하고 요약 결과를 제공하는 서비스입니다.
 
 * FastAPI 기반 백엔드 API 구현
 * 뉴스 본문 크롤링 기능
@@ -93,7 +92,21 @@ fastapi/
 ### 1. 패키지 설치
 
 ```
-pip install -r requirements.txt
+# 가상환경
+python -m venv venv
+
+# 3.12 version
+py -3.12 -m venv venv312
+
+# 활성화
+venv\Scripts\activate
+venv312\Scripts\activate
+
+# 비활성화
+deactivate
+
+python.exe -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
 ### 2. 서버 실행
